@@ -1,0 +1,20 @@
+<% include ./partials/header %>
+<div class="row">
+    <h1 class="login-register-title">Sign Up!</h1>
+    <div class="login-register-form">
+        <form action="/register" method="POST">
+            <input class="form-control login-register-input" type="text" name="username" placeholder="Username">
+            <input class="form-control login-register-input" type="password" name="password" placeholder="Password">
+            <input class="form-control login-register-input" type="text" name="firstName" placeholder="First Name">
+             <input class="form-control login-register-input" type="text" name="lastName" placeholder="Last Name">
+             <input class="form-control login-register-input" type="email" name="email" placeholder="john@doe.com">
+            <input class="form-control login-register-input" type="text" name="avatar" placeholder="Profile Image">
+            <input class="form-control login-register-input" type="text" name="adminCode" placeholder="Admin Code">
+            <div class="form-group">
+                <button class="btn btn-ls btn-primary btn-block">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<% include ./partials/footer %>

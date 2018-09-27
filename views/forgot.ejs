@@ -1,0 +1,14 @@
+<% include ./partials/header %>
+<div class="row">
+    <h1 class="login-register-title">Forgot Password</h1>
+    <p class="forgot-directions">Enter the email address associated with your account to reset your password.</p>
+    <div class="login-register-form">
+        <form action="/forgot" method="POST">
+            <input class="form-control login-register-input" type="email" name="email" placeholder="john@doe.com">
+            <div class="form-group">
+                <button class="btn btn-ls btn-primary btn-block">Send Email</button>
+            </div>
+        </form>
+    </div>
+</div>
+<% include ./partials/footer %>
